@@ -41,4 +41,10 @@ a {
   border-radius: 5px;
   padding: 5px 5px;
   cursor: pointer;
+  float: left;
+}
+
+.auth-menu ul li.auth-email {
+  border: none;
+  margin-right: 10px;
 }

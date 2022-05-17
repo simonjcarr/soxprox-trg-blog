@@ -8,7 +8,7 @@ export default function AuthMenu() {
       { authReady &&
         <ul>
           { !user && <li onClick={login}>Register / Login</li> }
-          { user && <li>{user.email}</li> }
+          { user && <li className="auth-email">{user.email}</li> }
           { user && <li onClick={logout}>Logout</li> }
         </ul>
       }
