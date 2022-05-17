@@ -14,3 +14,13 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.site-header {
+  background-color: #333;
+  padding: 1rem;
+  color: white;
+}
+
+.site-content {
+  padding: 1rem;
+}
