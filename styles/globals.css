@@ -24,3 +24,21 @@ a {
 .site-content {
   padding: 1rem;
 }
+
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.auth-menu ul {
+  list-style: none;
+}
+
+.auth-menu ul li {
+  border: 1pt white solid;
+  border-radius: 5px;
+  padding: 5px 5px;
+  cursor: pointer;
+}
