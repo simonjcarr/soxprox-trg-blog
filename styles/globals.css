@@ -48,3 +48,16 @@ a {
   border: none;
   margin-right: 10px;
 }
+
+.header-menus {
+  display: flex;
+  align-items: center;
+}
+
+.header-menus ul li {
+  list-style: none;
+}
+
+.header-menu ul li a {
+  color: white;
+}
