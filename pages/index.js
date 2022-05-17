@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import { DatePicker } from 'antd';
 import 'antd/dist/antd.css';
 import Header from '../components/site/header/Header';
 
@@ -15,7 +14,6 @@ export default function Home() {
       </Head>
       <main className='site-content'>
         <p>Hello World</p>
-        <DatePicker />
       </main>
 
       <footer></footer>

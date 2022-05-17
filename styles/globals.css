@@ -54,10 +54,14 @@ a {
   align-items: center;
 }
 
-.header-menus ul li {
+.header-menu {
+  margin-top: 10px;
+}
+
+.header-menus li {
   list-style: none;
 }
 
-.header-menu ul li a {
+.header-menu li a {
   color: white;
 }
